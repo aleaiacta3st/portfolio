@@ -94,6 +94,7 @@ html {
     radial-gradient(3px 3px at 85% 75%, rgba(236, 173, 10, 0.5), transparent);
   background-color: var(--bg);
   background-attachment: fixed;
+  font-size: 118%;
 }
 
 .navbar {
@@ -161,7 +162,7 @@ a:hover {
 .chat-container {
   background: var(--surface);
   border: 1px solid rgba(236, 173, 10, 0.25);
-  height: 700px;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   animation: neonPulse 4s ease-in-out infinite;
