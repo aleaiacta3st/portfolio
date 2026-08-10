@@ -200,8 +200,14 @@ function Chat() {
     <>
       <canvas ref={rainRef} className="matrix-rain"></canvas>
       <div className="page">
-        <h1>D<span className="flicker">I</span>G<span className="flicker flicker-2">I</span>TAL TW<span className="flicker flicker-3">I</span>N <span className="online-status"><span className="online-dot"></span> Online</span></h1>
-        <p className="chat-subtitle">Talk to my AI twin about my career</p>
+        <h1>
+          <span className="terminal-prefix">&gt; </span>
+          <span className="title-text" data-text="DIGITAL TWIN">D<span className="flicker">I</span>G<span className="flicker flicker-2">I</span>TAL TW<span className="flicker flicker-3">I</span>N</span>
+          <span className="title-cursor">_</span>
+          <span className="version-tag">v2.1</span>
+          <span className="online-status"><span className="online-dot"></span> Online</span>
+        </h1>
+        <p className="chat-subtitle">Neural interface v2.1 — Knowledge base loaded — Query ready</p>
         <div className="chat-container">
           <div className="scanlines"></div>
           <div className="beam"></div>
