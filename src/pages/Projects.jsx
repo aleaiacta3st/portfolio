@@ -9,6 +9,16 @@ const projects = [
     description: 'This website. Built with React and React Router.',
     tags: ['React', 'Vite'],
   },
+  {
+    title: 'Asteroid Bot',
+    description: 'Ever wanted to know how close the Earth comes to danger everyday? Try my asteroid bot.',
+    tags: ['React', 'Vite'],
+  },
+  {
+    title: 'AudioScribeSeek',
+    description: 'Transcribes audio to Text',
+    tags: ['React', 'Vite'],
+  },
 ]
 
 function Projects() {
