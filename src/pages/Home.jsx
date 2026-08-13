@@ -4,7 +4,7 @@ function Home() {
       <div className="hero">
         <h1>Siddartha</h1>
         <p className="hero-role">SWE & AI Engineer</p>
-        <p className="hero-tagline">I build AI systems that actually do things<span className="blink">_</span></p>
+        <p className="hero-tagline">I build AI systems<span className="blink">_</span></p>
       </div>
 
       <div className="featured">
