@@ -29,6 +29,8 @@ function Home() {
         </div>
       </div>
 
+      <a href="/projects" className="view-all">See all projects →</a>
+
       <div className="stack">
         <p className="stack-label">&gt; tech</p>
         <p className="stack-list">Python · JavaScript · TypeScript · SQL · React · FastAPI · Django · Pydantic · Gradio · OpenAI · Claude API · LangChain · HuggingFace Transformers · RAG · QLoRA · Ollama · Celery · Redis · PostgreSQL · pgvector · ChromaDB · Docker · AWS · Modal · Weights & Biases · WebSockets · Git</p>

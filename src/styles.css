@@ -409,3 +409,14 @@ a:hover {
   background: var(--gold);
   color: #050505;
 }
+
+.view-all {
+  display: inline-block;
+  color: var(--gold);
+  font-size: 0.8rem;
+  text-transform: none;
+  letter-spacing: 0.03em;
+  padding: 0.5rem 0 2rem;
+  border-bottom: 1px solid rgba(236, 173, 10, 0.15);
+  width: 100%;
+}
