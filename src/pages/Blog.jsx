@@ -1,22 +1,15 @@
-const posts = [
-  {
-    title: 'How I Built My AI Digital Twin',
-    date: '2026-08-10',
-    summary: 'A walkthrough of building an LLM-powered chatbot with FastAPI and OpenAI.',
-  },
-]
-
 function Blog() {
   return (
     <div className="page">
       <h1>Blog</h1>
-      {posts.map((post, index) => (
-        <article key={index} className="blog-card">
-          <p className="blog-date">{post.date}</p>
-          <h2>{post.title}</h2>
-          <p>{post.summary}</p>
-        </article>
-      ))}
+
+      <div className="blog-list">
+        <a href="/blog/sentinel-agents" className="blog-entry">
+          <p className="blog-date">Coming soon</p>
+          <h2>&gt; Building a Multi-Agent AI Police Dispatch System</h2>
+          <p className="blog-summary">How four autonomous agents triage, investigate, and respond to crime reports over email — the architecture behind Sentinel Agents.</p>
+        </a>
+      </div>
     </div>
   )
 }
