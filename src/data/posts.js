@@ -7,7 +7,7 @@ export const posts = [
       content: `
   ## The Problem
   
-  Placeholder — we will write the real content after the rendering pipeline is built.
+  Sentinel a watchful guardian
       `
     }
   ]
