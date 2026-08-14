@@ -585,3 +585,7 @@ a:hover {
   text-transform: none;
   letter-spacing: normal;
 }
+
+.nav-links a.active {
+  color: var(--gold);
+}

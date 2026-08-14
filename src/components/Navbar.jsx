@@ -1,12 +1,12 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-links">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/blog">Blog</Link>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/blog">Blog</NavLink>
       </div>
       <div className="nav-icons">
         <a href="https://github.com/aleaiacta3st" target="_blank">
