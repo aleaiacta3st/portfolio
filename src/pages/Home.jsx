@@ -15,6 +15,7 @@ function Home() {
           <div className="fp-links">
             <a href="https://sentinel.siddartha.dev" target="_blank">sentinel.siddartha.dev →</a>
             <a href="https://github.com/aleaiacta3st/police-email-agent" target="_blank">GitHub →</a>
+            <a href="/blog/sentinel-agents">Blog post →</a>
           </div>
         </div>
 

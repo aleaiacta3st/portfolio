@@ -11,6 +11,7 @@ function Projects() {
           <div className="fp-links">
             <a href="https://sentinel.siddartha.dev" target="_blank">sentinel.siddartha.dev →</a>
             <a href="https://github.com/aleaiacta3st/police-email-agent" target="_blank">GitHub →</a>
+            <a href="/blog/sentinel-agents">Blog post →</a>
           </div>
         </div>
 
@@ -21,6 +22,7 @@ function Projects() {
           <div className="fp-links">
             <a href="https://terraforge.siddartha.dev" target="_blank">terraforge.siddartha.dev →</a>
             <a href="https://github.com/aleaiacta3st/terraforge-ops-dashboard" target="_blank">GitHub →</a>
+            <a href="/blog/terraforge">Blog post →</a>
           </div>
         </div>
       </div>
@@ -33,6 +35,7 @@ function Projects() {
             <div className="fp-links">
               <a href="https://digitaltwin.siddartha.dev" target="_blank">digitaltwin.siddartha.dev →</a>
               <a href="https://github.com/aleaiacta3st/digi_twin_enhanced" target="_blank">GitHub →</a>
+              <a href="/blog/digital-twin">Blog post →</a>
             </div>
           </div>
 
@@ -42,6 +45,7 @@ function Projects() {
             <div className="fp-links">
               <a href="https://asteroid.siddartha.dev" target="_blank">asteroid.siddartha.dev →</a>
               <a href="https://github.com/aleaiacta3st/asteroid-watch-bot" target="_blank">GitHub →</a>
+              <a href="/blog/asteroid-watch">Blog post →</a>
             </div>
           </div>
 
@@ -51,6 +55,7 @@ function Projects() {
             <div className="fp-links">
               <a href="https://transcribe.siddartha.dev" target="_blank">transcribe.siddartha.dev →</a>
               <a href="https://github.com/aleaiacta3st/audioscribeseek" target="_blank">GitHub →</a>
+              <a href="/blog/audioscribeseek">Blog post →</a>
             </div>
           </div>
 

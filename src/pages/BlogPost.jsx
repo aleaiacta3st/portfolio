@@ -6,6 +6,15 @@ function BlogPost() {
   const { slug } = useParams()
   const post = posts.find(p => p.slug === slug)
 
+  function formatDate(dateStr) {
+    const date = new Date(dateStr + 'T00:00:00')
+    return date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    })
+  }
+
   if (!post) {
     return (
       <div className="page">
@@ -16,7 +25,8 @@ function BlogPost() {
 
   return (
     <div className="page">
-      <p className="blog-date">{post.date}</p>
+      <a href="/blog" className="blog-back">← Back to blog</a>
+      <p className="blog-date">{formatDate(post.date)}</p>
       <h1>{post.title}</h1>
       <div className="blog-content">
         <ReactMarkdown>{post.content}</ReactMarkdown>

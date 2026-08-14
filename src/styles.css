@@ -324,10 +324,16 @@ a:hover {
 
 .blog-entry {
   display: block;
-  padding: 1.5rem 0;
+  padding: 1.25rem 1.25rem;
   text-decoration: none;
+  border-left: 2px solid transparent;
+  transition: all 0.3s;
 }
 
+.blog-entry:hover {
+  border-left-color: var(--gold);
+  background: rgba(236, 173, 10, 0.03);
+}
 .blog-entry h2 {
   color: var(--text);
   font-size: 0.95rem;
@@ -495,4 +501,48 @@ a:hover {
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+
+.blog-tag {
+  display: inline-block;
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--teal);
+  padding: 0.15rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-back {
+  display: inline-block;
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+  text-transform: none;
+}
+
+.blog-section-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin: 1.5rem 0 0.5rem;
+  position: sticky;
+  top: 60px;
+  background: var(--bg);
+  padding: 0.75rem 0;
+  z-index: 10;
+}
+
+.blog-section-label::before,
+.blog-section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(236, 173, 10, 0.15);
 }
