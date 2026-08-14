@@ -179,7 +179,7 @@ a:hover {
 }
 
 .featured-project {
-  padding: 1rem 0;
+  padding: 1.5rem 2.5rem;
 }
 
 .featured-project h2 {
@@ -545,4 +545,21 @@ a:hover {
   flex: 1;
   height: 1px;
   background: rgba(236, 173, 10, 0.15);
+}
+
+.featured-project .blog-entry {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.featured-project .blog-entry h2 {
+  text-transform: uppercase;
+  color: var(--gold);
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+}
+
+.featured-project .blog-entry .fp-desc {
+  text-transform: none;
+  letter-spacing: normal;
 }

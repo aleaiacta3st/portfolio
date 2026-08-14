@@ -18,7 +18,7 @@ function Blog() {
       <h1>Blog</h1>
 
       <div className="blog-list">
-        <p className="blog-section-label">projects</p>
+        <p className="blog-section-label">project writeups</p>
         {projectPosts.map(post => (
           <a key={post.slug} href={`/blog/${post.slug}`} className="blog-entry fade-in">
             
@@ -28,7 +28,7 @@ function Blog() {
           </a>
         ))}
 
-        <p className="blog-section-label">tech</p>
+        <p className="blog-section-label">tech notes</p>
         {techPosts.map(post => (
           <a key={post.slug} href={`/blog/${post.slug}`} className="blog-entry fade-in">
             

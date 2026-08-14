@@ -1,4 +1,19 @@
+import { posts } from '../data/posts'
+
+
 function Home() {
+
+  const featured = posts.filter(p => p.featured)
+
+  function formatDate(dateStr) {
+    const date = new Date(dateStr + 'T00:00:00')
+    return date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    })
+  }
+
   return (
     <div className="page">
       <div className="hero">
@@ -6,6 +21,8 @@ function Home() {
         <p className="hero-role">SWE & AI Engineer</p>
         <p className="hero-tagline">I build AI systems<span className="blink">_</span></p>
       </div>
+
+      <p className="blog-section-label fade-in">featured projects</p>
 
       <div className="featured fade-in">
         <div className="featured-project">
@@ -31,6 +48,21 @@ function Home() {
       </div>
 
       <a href="/projects" className="view-all fade-in">See all projects →</a>
+
+      <p className="blog-section-label fade-in">featured post</p>
+      <div className="featured fade-in">
+        <div className="featured-project">
+          {featured.map(post => (
+            <a key={post.slug} href={`/blog/${post.slug}`} className="blog-entry">
+              <p className="blog-date">{formatDate(post.date)}</p>
+              <h2>&gt; {post.title}</h2>
+              <p className="fp-desc">{post.summary}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <a href="/blog" className="view-all fade-in">See all posts →</a>
 
       <div className="stack fade-in">
         <p className="stack-label">&gt; tech</p>

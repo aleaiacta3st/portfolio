@@ -15,6 +15,7 @@ const posts = Object.entries(modules).map(([path, raw]) => {
     date: attributes.date.toISOString().split('T')[0],
     category: attributes.category,
     summary: attributes.summary,
+    featured: attributes.featured || false,
     content: body
   }
 })
