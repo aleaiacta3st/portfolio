@@ -180,6 +180,18 @@ a:hover {
 
 .featured-project {
   padding: 1.5rem 2.5rem;
+  border-left: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.featured-project:hover {
+  border-left-color: var(--gold);
+  background: rgba(236, 173, 10, 0.03);
+}
+
+.featured-project:hover .fp-links a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .featured-project h2 {
@@ -290,6 +302,11 @@ a:hover {
 .grid-project:hover {
   border-color: rgba(236, 173, 10, 0.4);
   box-shadow: 0 0 15px rgba(236, 173, 10, 0.1);
+}
+
+.grid-project:hover .fp-links a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .grid-project h3 {
@@ -550,6 +567,11 @@ a:hover {
 .featured-project .blog-entry {
   padding-left: 0.75rem;
   padding-right: 0;
+}
+
+.featured-project .blog-entry:hover {
+  border-left-color: transparent;
+  background: none;
 }
 
 .featured-project .blog-entry h2 {
