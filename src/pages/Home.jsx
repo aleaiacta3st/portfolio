@@ -7,7 +7,7 @@ function Home() {
         <p className="hero-tagline">I build AI systems<span className="blink">_</span></p>
       </div>
 
-      <div className="featured">
+      <div className="featured fade-in">
         <div className="featured-project">
           <h2>&gt; Sentinel Agents</h2>
           <p className="fp-desc">Multi-agent AI police dispatch system. Victims email in crime reports, a triage agent classifies the crime, routes to specialist agents that autonomously conduct interviews, dispatch ambulances, freeze accounts — all over email with full conversation memory.</p>
@@ -29,14 +29,14 @@ function Home() {
         </div>
       </div>
 
-      <a href="/projects" className="view-all">See all projects →</a>
+      <a href="/projects" className="view-all fade-in">See all projects →</a>
 
-      <div className="stack">
+      <div className="stack fade-in">
         <p className="stack-label">&gt; tech</p>
         <p className="stack-list">Python · JavaScript · TypeScript · SQL · React · FastAPI · Django · Pydantic · Gradio · OpenAI · Claude API · LangChain · HuggingFace Transformers · RAG · QLoRA · Ollama · Celery · Redis · PostgreSQL · pgvector · ChromaDB · Docker · AWS · Modal · Weights & Biases · WebSockets · Git</p>
       </div>
 
-      <div className="footer">
+      <div className="footer fade-in">
         <p className="footer-label">&gt; contact</p>
         <div className="footer-links">
           <a href="https://github.com/aleaiacta3st" target="_blank">GitHub</a>

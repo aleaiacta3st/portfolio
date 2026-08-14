@@ -25,7 +25,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="other-projects">
+      <div className="other-projects fade-in">
         <div className="project-grid">
           <div className="grid-project">
             <h3>&gt; Digital Twin</h3>
